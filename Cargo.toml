@@ -1,6 +1,10 @@
 [package]
 name = "rengine"
 version = "0.1.0"
-authors = [" <>"]
+authors = ["Adrien Dubouchet <ra.dubouchet@gmail.com>"]
 
 [dependencies]
+chrono = "*"
+
+[dependencies.clap]
+git = "https://github.com/kbknapp/clap-rs"

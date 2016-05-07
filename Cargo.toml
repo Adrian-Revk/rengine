@@ -2,9 +2,15 @@
 name = "rengine"
 version = "0.1.0"
 authors = ["Adrien Dubouchet <ra.dubouchet@gmail.com>"]
+build = "src/build.rs"
 
 [dependencies]
 chrono = "*"
+#gfx = "*"
 
-[dependencies.clap]
-git = "https://github.com/kbknapp/clap-rs"
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
+default-features = false
+
+#[dependencies.clap]
+#git = "https://github.com/kbknapp/clap-rs"

@@ -5,8 +5,8 @@ authors = ["Adrian Revk <ra.dubouchet@gmail.com>"]
 build = "src/build.rs"
 
 [dependencies]
-chrono = "*"
-log = "*"
+rand = "0.3"
+gl = "*"
 
 [dependencies.glfw]
 git = "https://github.com/bjz/glfw-rs.git"
